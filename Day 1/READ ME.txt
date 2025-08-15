@@ -1,0 +1,65 @@
+
+# 📅 SQL Learning – Day 1
+
+## Overview
+On my first day of learning SQL, I focused on mastering core clauses that control how data is selected, filtered, and aggregated.  
+This session included practical examples using a sample database called 'MyDatabase' and a table named 'customers'.
+
+ 📌 Topics Learned
+1. SELECT *
+Purpose : Retrieves all the columns in the table
+When to use : When you want to select all the data in the table.
+
+2. FROM
+Purpose : Tells SQL where to find the data from
+When to use : When you want to retrieve data from a dataset/Table. 
+
+3. ORDER BY 
+Purpose : Used to Sort the data either Ascending or Descending.
+When to Use: When you want to sort the data in a particular order ,
+
+4. GROUP BY
+Purpose: Combines rows with Same Value and Aggregates columns by another column.
+When to use: When finding the total for same values ( Finding the total score for each country)
+
+5. SELECT DISTINCT
+Purpose : Retrieve unique values from a column, removing duplicates.
+When to Use : When you want to list unique entries from a column (e.g., unique countries where customers are located).
+
+6. SELECT TOP
+
+Purpose : Limit the number of rows returned by a query.
+When to Use: When you only need the highest/lowest `N` records (e.g., top 3 customers by score).
+
+7. WHERE vs HAVING
+
+Purpose : Filter data before or after aggregation.
+When to Use :   WHERE: Filters rows before GROUP BY.
+ 		HAVING: Filters aggregated results after GROUP BY.
+
+📂 Files in This Repository
+
+| File                           | Description                                                             |
+| ------------------------------ | ----------------------------------------------------------------------- |
+| `SELECT DISTINCT.sql`          | Demonstrates retrieving unique country names.                           |
+| `SELECT TOP.sql`               | Retrieves the top 3 customers by score.                                 |
+| `Where and Having clauses.sql` | Shows the difference between `WHERE` and `HAVING` in filtering results. |
+
+
+
+🛠 Skills Practiced
+
+ Basic `SELECT` queries
+ Using `DISTINCT` for uniqueness
+ Limiting results with `TOP`
+ Filtering with `WHERE` and `HAVING`
+ Grouping data with `GROUP BY`
+ Aggregating data using `AVG()`
+ ORDER BY 
+
+🔍 Keywords (SEO)
+
+#SQL #Database #DataAnalysis #DataAnalytics
+#SQLBeginner #SQLPractice #SQLQueries #LearnSQL
+#BusinessIntelligence #DataScience #Analytics #DataEngineering
+

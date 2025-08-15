@@ -1,0 +1,7 @@
+-- SQL TASK: FIND THE TOTAL SCORE FOR EACH COUNTRY
+use MyDatabase
+select			--SELECTS THE COLUMN COUNTRY
+country,		
+sum(score)		-- SUM OF THE SCORE (GROUPED IN COUNTRY)
+From customers	-- FROM TABLE CUSTOMERS
+Group by country -- GROUPED THE DATA BY COUNTRY	
