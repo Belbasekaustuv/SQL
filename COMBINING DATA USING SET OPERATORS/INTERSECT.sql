@@ -1,0 +1,12 @@
+-- COMBINING DATA USING SET OPERATORS
+--3. INTERSECT
+--SQL TASK:Find the Employees who are customers at the same time
+
+use SalesDB			-- USE DATABASE SALESDB
+SELECT				-- SELECTS THE COLUMNS SPECIFIED
+FirstName
+from sales.Customers;	-- FROM TABLE SALES.CUSTOMERS
+INTERSECT -- RETURNS ONLY THE ROWS THATARE COMMON IN BOTH QUERIE
+Select
+FirstName
+from sales.Employees;
